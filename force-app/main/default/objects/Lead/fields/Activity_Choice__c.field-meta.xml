@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Choice__c</fullName>
+    <externalId>false</externalId>
+    <label>Activity Choice</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activity A</fullName>
+                <default>false</default>
+                <label>Activity A</label>
+            </value>
+            <value>
+                <fullName>Activity B</fullName>
+                <default>false</default>
+                <label>Activity B</label>
+            </value>
+            <value>
+                <fullName>Activity C</fullName>
+                <default>false</default>
+                <label>Activity C</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
